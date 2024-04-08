@@ -1,13 +1,13 @@
-// import {Header} from "/shared/components/Header/Header";
-// import {Router, Rote} from 'react-router-dom';
-import {Home} from './pages/home/Home';
-import {About} from './pages/about/About'
+// // import {Header} from "/shared/components/Header/Header";
+// import {Router} from 'react-router-dom';
+// import {Home} from './pages/home/Home';
+// import {About} from './pages/about/About'
 
-export const App = () => {
-  return (
-    <>
-   <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-    </>
-  );
+// export const App = () => {
+//   return (
+//     <>
+//    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+//     </>
+//   );
 
-}
+// }
