@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('/src/assets/fonts/icomoon.woff?tesa50') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+    font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bell:before {
+  content: "\e900";
+  color: var(--white);
+}
+.icon-chevron-left:before {
+  content: "\e901";
+  color: var(--white);
+}
+.icon-coffee:before {
+  content: "\e902";
+  color: var(--orange);
+  font-size:27rem;
+}
+.icon-coffee_2:before {
+  content: "\e903";
+  color: var(--white);
+}
+.icon-heart:before {
+  content: "\e904";
+  color: var(--white);
+}
+.icon-home:before {
+  content: "\e905";
+  color: var(--white);
+}
+.icon-location:before {
+  content: "\e906";
+  color: var(--orange);
+ font-size:27rem;
+}
+.icon-cart:before {
+  content: "\e907";
+  color: var(--white);
+}
+.icon-menu:before {
+  content: "\e908";
+  color: var(--white);
+}
+.icon-minus:before {
+  content: "\e909";
+  color: var(--white);
+}
+.icon-plus:before {
+  content: "\e90a";
+  color: var(--white);
+ 
+}
+.icon-search:before {
+  content: "\e90b";
+  color: var(--grey);
+  background: var(--button);
+}
+.icon-sim:before {
+  content: "\e90c";
+  color: var(--white);
+}
+.icon-star:before {
+  content: "\e90d";
+  color: var(--orange);
+  font-size:23rem;
+}
+.icon-times:before {
+  content: "\e90e";
+  color: var(--white);
+}
+.icon-visa:before {
+  content: "\e90f";
+  color: var(--white);
+}
+.icon-wallet:before {
+  content: "\e910";
+  color: var(--white);
+}
+.icon-water:before {
+  content: "\e911";
+  color: var(--white);
+}
