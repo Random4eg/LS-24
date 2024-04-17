@@ -35,16 +35,9 @@ class HomeList extends Component {
   render() {
     return (
       <div>
-        {/* Рендеринг елементів */}
-        {/* <ul>
-          {this.state.items.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul> */}
-        {/* Рендеринг кавових даних */}
-        <ul>
+          <ul >
           {this.state.coffeeData.map(coffee => (
-            <li key={coffee.id}>{coffee.title}</li>
+            <li className='item' key={coffee.id}>{coffee.title}</li>
           ))}
         </ul>
       </div>

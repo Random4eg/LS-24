@@ -10,6 +10,10 @@
 .beans-icon {
 	border: 1rem solid #21262e;
 	border-radius: 10rem;
+	width: 33rem;
+	height: 33rem;
+	font-size: 14rem;
+	background: linear-gradient(137deg, #21262e 0%, #0c0f14 100%);
 }
 .parent {
 	margin-top: 285rem;
@@ -31,19 +35,13 @@
 }
 .div3 {
 	grid-area: 1 / 4 / 2 / 5;
-} /* Змінив grid-area з 1 / 4 / 2 / 5 на 1 / 5 / 2 / 6 */
+}
 .div4 {
-	grid-area: 2 / 1 / 3 / 3;
+	grid-area: 2 / 1 / 2 / 2;
 }
 .div5 {
 	grid-area: 2 / 3 / 3 / 5;
-} /* Змінив grid-area з 2 / 3 / 3 / 5 на 2 / 5 / 3 / 6 */
-
-// .div1 { grid-area: 1 / 1 / 2 / 3; }
-// .div2 { grid-area: 1 / 3 / 2 / 4; }
-// .div3 { grid-area: 1 / 4 / 2 / 5; }
-// .div4 { grid-area: 2 / 1 / 3 / 3; }
-// .div5 { grid-area: 2 / 3 / 3 / 5; }
+}
 .div1 {
 	font-family: var(--font-family);
 	font-weight: 600;

@@ -1,20 +1,33 @@
-.container{    
-     padding: 20rem;}
-.title{
-    font-weight: 600;
-    font-size: 14rem;
-    line-height: 143%;
-    color: var(--hzcolor);
-    margin-bottom: 15rem;
+.container {
+	padding: 20rem;
 }
-.size{
-    display: flex;
-    justify-content: space-between;
+.title {
+	font-weight: 600;
+	font-size: 14rem;
+	line-height: 143%;
+	color: var(--hzcolor);
+	margin-bottom: 15rem;
 }
-.card{
-    font-weight: 500;
-    font-size: 12rem;
-    line-height: 167%;
-    border-radius: 10rem;
-    padding: 10rem 20rem;
+.size {
+	display: flex;
+	justify-content: space-between;
+}
+.size-card {
+	font-weight: 500;
+	font-size: 12rem;
+	line-height: 167%;
+	border-radius: 10rem;
+	padding: 10rem 20rem;
+	background: #141921;
+	border-radius: 10rem;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 12rem;
+	line-height: 167%;
+	color: #aeaeae;
+}
+.size-card.active {
+	border: 2px solid #d17842;
+	background: #141921;
+	color: #d17842;
 }

@@ -13,10 +13,10 @@ export const Coffee = () => {
 
   return (
     <>
-      <div className="cofe__section">
-        <div className="cofe__box">
-          <button className="cofe__icon icon-chevron-left" onClick={goBack}></button>
-          <button className="cofe__icon icon-heart"></button>
+      <div className="coffee-section">
+        <div className="coffee-box">
+          <button className="coffee-icon icon-chevron-left" onClick={goBack}></button>
+          <button className="coffee-icon icon-heart"></button>
         </div>
         <div className="parent">
           <div className="div1">
@@ -27,10 +27,10 @@ export const Coffee = () => {
             <div className="icon-coffee_2"><br/>Cappuccino</div>
           </div>
           <div className="div3">
-            <div className="cofe__icon icon-water"><br/>Milk</div>
+            <div className="icon-water"><br/>Milk</div>
           </div>
           <div className="div4">
-            <p className="cofe__icon-star price">4.5 <span>(6,879)</span></p>
+            <p className="icon-star price">4.5 <span>(6,879)</span></p>
           </div>
           <div className="div5">Medium Roasted</div>
         </div>

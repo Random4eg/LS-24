@@ -1,4 +1,5 @@
 import React from 'react'
+import '/src/pages/product/beans/price/Price.scss'
 
 export const Price = () => {
   return (

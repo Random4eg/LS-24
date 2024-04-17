@@ -5,8 +5,8 @@
 	line-height: 125%;
 	color: var(--white);
 	margin: 21rem 5rem;
+	text-align: center;
 }
-
 .carousel {
 	display: flex;
 	justify-content: center;
@@ -14,6 +14,7 @@
 	overflow-y: scroll;
 }
 .card {
+	width: 139rem;
 	background: linear-gradient(
 		158.84deg,
 		#262b33 4%,
@@ -30,6 +31,7 @@
 	color: var(--white);
 	margin-top: 10rem;
 }
+
 .card-text {
 	font-family: var(--font-family);
 	font-weight: 400;

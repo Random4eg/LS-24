@@ -1,1 +1,36 @@
-
+.home-container {
+}
+h1 {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 28rem;
+	line-height: 129%;
+	color: #fff;
+}
+.home-label {
+	background: #141921;
+	border-radius: 15rem;
+	padding: 7rem;
+}
+.home-btn {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 10rem;
+	line-height: 200%;
+	background: #141921;
+	border: 0;
+	padding-right: 10rem;
+}
+.home-input {
+	background: #141921;
+	border: 0;
+	padding: 7rem;
+}
+.icon-search {
+	font-weight: 500;
+	font-size: 10rem;
+	line-height: 200%;
+}
+.icon-search::before {
+	color: #52555a;
+}

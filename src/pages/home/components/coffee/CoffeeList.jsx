@@ -25,6 +25,13 @@ export const CoffeeList = () => {
       imageUrl: './src/assets/Group1.png',
       description: 'With Steamed Milk',
       
+    },
+    {
+      id: 4,
+      title: 'Cappuccino',
+      imageUrl: './src/assets/Group1.png',
+      description: 'With Steamed Milk',
+      
     }
   ];
   const handleClick = () => {

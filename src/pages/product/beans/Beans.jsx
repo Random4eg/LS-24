@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import './Beans.scss';
+import '/src/pages/product/beans/Beans.scss';
 import { Description } from './description/Description';
 import { Size } from './size/Size';
 import { Price } from './price/Price';

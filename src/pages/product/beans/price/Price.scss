@@ -4,6 +4,8 @@
 	padding: 20rem;
 }
 .title {
+	display: flex;
+	justify-content: space-between;
 	font-weight: 600;
 	font-size: 14rem;
 	line-height: 143%;

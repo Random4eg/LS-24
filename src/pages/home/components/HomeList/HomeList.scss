@@ -1,4 +1,30 @@
-    ul{
-    display: flex;
-    justify-content: space-between;
+ul {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 26rem;
+	margin-top: 26rem;
+	cursor: pointer;
+}
+.item {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 14rem;
+	line-height: 143%;
+	margin-right: 19rem;
+	color: white;
+	position: relative;
+}
+.item:hover {
+	color: #d17842;
+}
+.item:hover::after {
+	content: '';
+	position: absolute;
+	border-radius: 7rem;
+	width: 90%; /* Змінюємо ширину полоси на 90% */
+	height: 2rem;
+	position: absolute;
+	bottom: -10rem;
+	left: 5%; /* Центруємо полосу */
+	background: #d17842;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import '/src/pages/home/components/beans/BeansList.scss'
 
 export const BeansList = () => {
   const navigate = useNavigate(); 
