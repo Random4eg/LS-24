@@ -1,26 +1,23 @@
-import { Outlet } from 'react-router-dom';
-import {createContext, useMemo } from 'react';
+import React, { createContext, useMemo } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import { Header } from './shared/components/Header/Header';
 import { Sidebar } from './shared/components/Sidebar/Sidebar';
 
 export const ApiContext = createContext({});
-
 export const ApiProvider = () => {
-//   const [token, setToken] = useState("");
+  const location = useLocation();
 
-//   if (!token) {
-//     return <Navigate to="/403" replace />;
-//   }
+  const isCoffeeOrBeansPage = location.pathname.includes("Coffee") || location.pathname.includes("Beans");
+
   const value = useMemo(() => ({}), []);
-
 
   return (
     <ApiContext.Provider value={value}>
-      <Header />
+      {!isCoffeeOrBeansPage && <Header />}
       <div className="main">
-      <Outlet />
+        <Outlet />
       </div>
-      <Sidebar />
+      {!isCoffeeOrBeansPage && <Sidebar />}
     </ApiContext.Provider>
   );
 };

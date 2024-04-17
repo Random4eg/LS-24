@@ -1,0 +1,32 @@
+.price__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rem;
+}
+.title {
+	font-weight: 600;
+	font-size: 14rem;
+	line-height: 143%;
+	color: var(--hzcolor);
+	margin-bottom: 15rem;
+	text-align: center;
+}
+.price {
+	font-weight: 600;
+	font-size: 20rem;
+	line-height: 100%;
+	color: var(--white);
+	text-align: center;
+}
+span {
+	color: var(--orange);
+}
+.price-icon {
+	font-weight: 600;
+	font-size: 16rem;
+	line-height: 125%;
+	color: var(--white);
+	border-radius: 20rem;
+	padding: 20rem 60rem;
+	background: var(--orange);
+}

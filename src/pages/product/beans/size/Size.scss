@@ -1,0 +1,20 @@
+.container{    
+     padding: 20rem;}
+.title{
+    font-weight: 600;
+    font-size: 14rem;
+    line-height: 143%;
+    color: var(--hzcolor);
+    margin-bottom: 15rem;
+}
+.size{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    font-weight: 500;
+    font-size: 12rem;
+    line-height: 167%;
+    border-radius: 10rem;
+    padding: 10rem 20rem;
+}

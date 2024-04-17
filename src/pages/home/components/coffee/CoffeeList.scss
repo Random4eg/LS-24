@@ -1,0 +1,62 @@
+.title {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16rem;
+	line-height: 125%;
+	color: var(--white);
+	margin: 21rem 5rem;
+}
+
+.carousel {
+	display: flex;
+	justify-content: center;
+	gap: 22rem;
+}
+.card {
+	background: linear-gradient(
+		158.84deg,
+		#262b33 4%,
+		rgba(38, 43, 51, 0) 91.93%
+	);
+	border-radius: 23rem;
+	padding: 13rem 11rem;
+}
+.card-title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 13rem;
+	line-height: 154%;
+	color: var(--white);
+	margin-top: 10rem;
+}
+.card-text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 9rem;
+	line-height: 222%;
+	color: var(--white);
+}
+
+.card-price {
+	display: flex;
+	justify-content: space-between;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 15rem;
+	line-height: 133%;
+	color: var(--white);
+	margin: 10rem 0rem;
+}
+span {
+	color: var(--orange);
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 15rem;
+	line-height: 133%;
+}
+.coffeeList-icon {
+	width: 29rem;
+	height: 29rem;
+	border-radius: 7rem;
+	background: var(--orange);
+}
